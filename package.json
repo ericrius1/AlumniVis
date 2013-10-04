@@ -6,6 +6,10 @@
     "connect-assets": "~2.3.3",
     "express": "~3.0.6",
     "jade": "~0.28.1",
-    "stylus": "~0.32.0"
+    "stylus": "~0.32.0",
+    "grunt": "~0.4.1"
+  },
+  "devDependencies": {
+    "grunt-contrib-coffee": "~0.7.0"
   }
 }
