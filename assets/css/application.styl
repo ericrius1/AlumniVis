@@ -2,9 +2,19 @@
   text-decoration line-through
   color red
 
+transform(n)
+    -webkit-transform rotateY(n)
+    transform rotateY(n)
+
 .card
   height 150px;
   width 150px;
   border 1px solid black
   background-image: url('/img/avatar.jpg')
   background-size 100%
+  transition all 2s ease-in-out
+  &:hover
+    transform 180deg
+  
+
+
