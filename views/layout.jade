@@ -3,7 +3,7 @@ html(ng-app)
   head
     link(rel='stylesheet', href='/css/bootstrap.min.css')
     != css('application')
-  body
+  body(ng-controller="CardCtrl")
     .container: .row: .span4.offset4
       block content
 
